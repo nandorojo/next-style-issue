@@ -8,11 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-native-community/hooks": "^2.6.0",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-native-web": "^0.12.3"
   },
   "devDependencies": {
-    "@expo/next-adapter": "^2.1.15"
+    "@expo/next-adapter": "^2.1.15",
+    "@types/react-native": "^0.62.13",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-expo": "^8.2.1",
+    "typescript": "^3.9.5"
   }
 }
